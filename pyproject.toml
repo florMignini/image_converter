@@ -1,0 +1,36 @@
+[project]
+name = "image-converter"
+version = "0.1.0"
+description = "A simple Python package to convert image formats"
+authors = [
+    { name="Florencia Mignini", email="flormignini29@gmail.com" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "Pillow"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/florMignini/image-converter"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "image_converter"
+version = "0.1.0"
+description = "Image conversion tools"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Pillow = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[tool.pytest.ini_options]
+python_paths = ["./image_converter"]
+testpaths = ["tests"]
