@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# MyPy, Coverage, and test reports
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Temporary image files for testing
+temp_*.jpg
+temp_*.png
+*.tmp.*
